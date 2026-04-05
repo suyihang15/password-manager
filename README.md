@@ -31,3 +31,5 @@ pip install cryptography
 之后就生成一些文件里面就有exe文件，就可以直接拿来用了
 
 希望对你有帮助。
+
+然后这是本人的博客网站https://suyihang15.com/后续会写更多的小工具之类的，希望可以关注一下
