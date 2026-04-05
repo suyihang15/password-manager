@@ -9,19 +9,22 @@ secret.key（作用：钥匙）
 
 不能随便删除，删了数据就没了
 
-成功以后打开软件就会以这样的方式呈现。
+成功以后打开软件就会以上面的方式呈现。
 
 我个人觉得是很直观的，当然你也可以拿着这些代码随便改，反正都有注释的
 
-要直接用源码的话，需要你自己配置环境
+要改用源码的话，需要你自己配置环境
 
 1、python 3.11
 
-2、安装第三方库pip install cryptography（我个人是喜欢pycharm或者vs code的这两个IDE的，当然你要用文本文档也行，反正代码也不多，就是格式容易错）安装第三方库时有可能网络超时，就自己配镜像源吧
+2、安装第三方库
+pip install cryptography
+（我个人是喜欢pycharm或者vs code的这两个IDE的，当然你要用文本文档也行，反正代码也不多，就是格式容易错）安装第三方库时有可能网络超时，就自己配镜像源吧
 
 3、如果改好了可以打包了，个人推荐pyinstaller
 
-（1）安装库pip install pyinstaller和pip install cryptography记得要把这个环境一起打包进去，不然运行不了
+（1）安装库pip install pyinstaller
+          pip install cryptography（记得要把这个环境一起打包进去，不然运行不了）
 
 （2）打包pyinstaller -F -w --hidden-import=cryptography 文件名字.py
 
